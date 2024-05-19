@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    <!-- Menu de navegação -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="sobre.html">Sobre Mim</a></li>
+            <li><a href="formacao.html">Formação Educacional</a></li>
+            <li><a href="portfolio.html">Meu Portfólio</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+    </nav>
+
+    <style>
+        .blinking {
+            color: red;
+            font-size: 20px;
+            font-weight: bold;
+            animation: blink 1s infinite;
+        }
+
+        @keyframes blink {
+            0% { opacity: 1; }
+            50% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+    </style>
+
+    <section>
+        <h1>Meu Portfólio</h1> <br>
+        <p class="blinking">Portfólio em desenvolvimento. Por favor, aguarde!</p> <br>
+        <video width="600" controls >
+        <source src="video/Programador.webm" type="video/webm">
+        </video>
+    </section>
+</body>
+</html>
